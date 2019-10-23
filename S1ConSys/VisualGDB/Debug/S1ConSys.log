@@ -1,0 +1,17 @@
+﻿  main.c
+  Src/main.c: In function 'fputc':
+Src\main.c(234,20): warning :  passing argument 1 of 'HAL_UART_Transmit' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+    HAL_UART_Transmit(UartHandle, temp, 1, 2);
+                      ^~~~~~~~~~
+  Inc\stm32f4xx_hal_conf.h(373):
+  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h(30):
+  Inc\main.h(31):
+  Src\main.c(22):
+  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h(696,19): note :  expected 'UART_HandleTypeDef * {aka struct __UART_HandleTypeDef *}' but argument is of type 'volatile UART_HandleTypeDef * {aka volatile struct __UART_HandleTypeDef *}'
+   HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                     ^~~~~~~~~~~~~~~~~
+  Linking VisualGDB/Debug/S1ConSys...
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 33KB out of 512KB (6%)
+  Used SRAM: 17KB out of 128KB (13%)
+  Used CCMRAM: 0 bytes out of 64KB (0%)

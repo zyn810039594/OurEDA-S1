@@ -1,0 +1,77 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "D:\\Emb\\Emb\\S1Nine\\S1Nine\\Output\\Arduino_Genuino_Uno\\Debug\\sketch\\sketch_sep29a.ino.cpp",
+    "Include": "FreeSixIMU.h",
+    "Includepath": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\FreeSixIMU"
+  },
+  {
+    "Sourcefile": "D:\\Emb\\Emb\\S1Nine\\S1Nine\\Output\\Arduino_Genuino_Uno\\Debug\\sketch\\sketch_sep29a.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "D:\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "D:\\Emb\\Emb\\S1Nine\\S1Nine\\Output\\Arduino_Genuino_Uno\\Debug\\sketch\\sketch_sep29a.ino.cpp",
+    "Include": "DFRobot_BMP280.h",
+    "Includepath": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\DFRobot_BMP280-master"
+  },
+  {
+    "Sourcefile": "D:\\Emb\\Emb\\S1Nine\\S1Nine\\Output\\Arduino_Genuino_Uno\\Debug\\sketch\\sketch_sep29a.ino.cpp",
+    "Include": "DFRobot_QMC5883.h",
+    "Includepath": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\DFRobot_QMC5883-master"
+  },
+  {
+    "Sourcefile": "D:\\Emb\\Emb\\S1Nine\\S1Nine\\Output\\Arduino_Genuino_Uno\\Debug\\sketch\\sketch_sep29a.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\FreeSixIMU\\CommunicationUtils.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\FreeSixIMU\\FIMU_ADXL345.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\FreeSixIMU\\FIMU_ITG3200.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\FreeSixIMU\\FreeSixIMU.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\hardware\\arduino\\avr\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\DFRobot_BMP280-master\\DFrobot_BMP280.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\zyn77\\Documents\\Arduino\\Libraries\\DFRobot_QMC5883-master\\DFRobot_QMC5883.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]
