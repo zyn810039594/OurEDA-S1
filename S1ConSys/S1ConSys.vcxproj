@@ -43,7 +43,7 @@
     <ClCompile>
       <CLanguageStandard>
       </CLanguageStandard>
-      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Middlewares\Third_Party\FreeRTOS\Source\include;Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Middlewares\Third_Party\FreeRTOS\Source\include;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG=1;flash_layout;STM32F407xx;USE_FREERTOS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -59,7 +59,7 @@
     <ClCompile>
       <CLanguageStandard>
       </CLanguageStandard>
-      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Middlewares\Third_Party\FreeRTOS\Source\include;Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Inc;Drivers\CMSIS\Include;Drivers\CMSIS\Device\ST\STM32F4xx\Include;Drivers\STM32F4xx_HAL_Driver\Inc;Middlewares\Third_Party\FreeRTOS\Source\include;Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;flash_layout;STM32F407xx;USE_FREERTOS;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -152,8 +152,6 @@
     <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h" />
     <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\include\task.h" />
     <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\include\timers.h" />
-    <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h" />
-    <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\portmacro.h" />
     <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_iwdg.h" />
     <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h" />
     <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h" />

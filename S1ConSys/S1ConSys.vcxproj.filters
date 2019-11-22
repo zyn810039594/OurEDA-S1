@@ -345,12 +345,6 @@
     <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\include\timers.h">
       <Filter>Header files\STM32Cube HAL\FREERTOS</Filter>
     </ClInclude>
-    <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h">
-      <Filter>Header files\STM32Cube HAL\FREERTOS</Filter>
-    </ClInclude>
-    <ClInclude Include="Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\portmacro.h">
-      <Filter>Header files\STM32Cube HAL\FREERTOS</Filter>
-    </ClInclude>
     <ClInclude Include="Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_iwdg.h">
       <Filter>Header files\STM32Cube HAL\IWDG</Filter>
     </ClInclude>

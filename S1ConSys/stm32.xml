@@ -48,7 +48,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>S1Control.gpdsc</RelativePath>
-        <Timestamp>132156127861092314</Timestamp>
+        <Timestamp>132188823390166786</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -270,19 +270,13 @@
                   <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\timers.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
-                  <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</RelativePath>
-                </VirtualFileSnapshot>
-                <VirtualFileSnapshot>
-                  <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h</RelativePath>
-                </VirtualFileSnapshot>
-                <VirtualFileSnapshot>
                   <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
-                  <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\portmacro.h</RelativePath>
+                  <RelativePath>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</RelativePath>
                 </VirtualFileSnapshot>
               </Files>
             </VirtualDirectorySnapshot>
@@ -397,14 +391,14 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>D:\Emb\Emb\S1ConSys\Inc</string>
-            <string>D:\Emb\Emb\S1ConSys\Drivers\CMSIS\Include</string>
-            <string>D:\Emb\Emb\S1ConSys\Drivers\CMSIS\Device\ST\STM32F4xx\Include</string>
-            <string>D:\Emb\Emb\S1ConSys\Drivers\STM32F4xx_HAL_Driver\Inc</string>
-            <string>D:\Emb\Emb\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\include</string>
-            <string>D:\Emb\Emb\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</string>
-            <string>D:\Emb\Emb\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</string>
-            <string>D:\Emb\Emb\S1ConSys\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Inc</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Drivers\CMSIS\Include</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Drivers\CMSIS\Device\ST\STM32F4xx\Include</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Drivers\STM32F4xx_HAL_Driver\Inc</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\include</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</string>
+            <string>F:\Emb\OurEDA-S1\S1ConSys\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

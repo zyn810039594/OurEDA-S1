@@ -48,7 +48,6 @@ VisualGDB/Debug/stm32f4xx_it.o: Src/stm32f4xx_it.c Inc/main.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h Inc/stm32f4xx_it.h \
- Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  Inc/FreeRTOSConfig.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -57,14 +56,7 @@ VisualGDB/Debug/stm32f4xx_it.o: Src/stm32f4xx_it.c Inc/main.h \
  Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
  Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 
 Inc/main.h:
 
@@ -170,8 +162,6 @@ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
 
 Inc/stm32f4xx_it.h:
 
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
-
 Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
 Inc/FreeRTOSConfig.h:
@@ -189,17 +179,3 @@ Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
 Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 
 Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
-
-Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:

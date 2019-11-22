@@ -246,6 +246,7 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
+  
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -337,19 +338,19 @@ int main(void)
   UART1TaskHandle = osThreadCreate(osThread(UART1Task), NULL);
 
   /* definition and creation of UART2Task */
-  osThreadDef(UART2Task, U2Task, osPriorityIdle, 0, 128);
+  osThreadDef(UART2Task, U2Task, osPriorityNormal, 0, 128);
   UART2TaskHandle = osThreadCreate(osThread(UART2Task), NULL);
 
   /* definition and creation of UART3Task */
-  osThreadDef(UART3Task, U3Task, osPriorityIdle, 0, 128);
+  osThreadDef(UART3Task, U3Task, osPriorityNormal, 0, 128);
   UART3TaskHandle = osThreadCreate(osThread(UART3Task), NULL);
 
   /* definition and creation of UART4Task */
-  osThreadDef(UART4Task, U4Task, osPriorityIdle, 0, 128);
+  osThreadDef(UART4Task, U4Task, osPriorityNormal, 0, 128);
   UART4TaskHandle = osThreadCreate(osThread(UART4Task), NULL);
 
   /* definition and creation of DisplayTask */
-  osThreadDef(DisplayTask, ScreenTask, osPriorityIdle, 0, 128);
+  osThreadDef(DisplayTask, ScreenTask, osPriorityNormal, 0, 128);
   DisplayTaskHandle = osThreadCreate(osThread(DisplayTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -871,6 +872,7 @@ static void MX_USART6_UART_Init(void)
   */
 static void MX_DMA_Init(void) 
 {
+
   /* DMA controller clock enable */
   __HAL_RCC_DMA2_CLK_ENABLE();
   __HAL_RCC_DMA1_CLK_ENABLE();
@@ -960,6 +962,13 @@ void SendNum(u8 Row, u8 Column, u8 Number)
 /* USER CODE END Header_U1Task */
 void U1Task(void const * argument)
 {
+    
+    
+    
+    
+    
+    
+    
 
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
