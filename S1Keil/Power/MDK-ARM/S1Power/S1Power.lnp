@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"s1power\startup_stm32f103xe.o"
+"s1power\main.o"
+"s1power\stm32f1xx_it.o"
+"s1power\stm32f1xx_hal_msp.o"
+"s1power\stm32f1xx_hal_gpio_ex.o"
+"s1power\stm32f1xx_hal_adc.o"
+"s1power\stm32f1xx_hal_adc_ex.o"
+"s1power\stm32f1xx_hal_iwdg.o"
+"s1power\stm32f1xx_hal_tim.o"
+"s1power\stm32f1xx_hal_tim_ex.o"
+"s1power\stm32f1xx_hal_uart.o"
+"s1power\stm32f1xx_hal.o"
+"s1power\stm32f1xx_hal_rcc.o"
+"s1power\stm32f1xx_hal_rcc_ex.o"
+"s1power\stm32f1xx_hal_gpio.o"
+"s1power\stm32f1xx_hal_dma.o"
+"s1power\stm32f1xx_hal_cortex.o"
+"s1power\stm32f1xx_hal_pwr.o"
+"s1power\stm32f1xx_hal_flash.o"
+"s1power\stm32f1xx_hal_flash_ex.o"
+"s1power\stm32f1xx_hal_exti.o"
+"s1power\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "S1Power\S1Power.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "S1Power.map" -o S1Power\S1Power.axf
